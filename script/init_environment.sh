@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pacman-key --refresh-keys 
+
 # Update packages database
 pacman -Syu --noconfirm
 
